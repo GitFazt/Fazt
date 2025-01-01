@@ -1,57 +1,133 @@
-[01:20:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:20:05] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[01:20:06] [ServerMain/INFO]: Loaded 7 recipes
-[01:20:07] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[01:20:07] [Server thread/INFO]: Loading properties
-[01:20:07] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[01:20:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:20:07] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:20:07] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[01:20:07] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
-    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
-    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[01:20:08] [Server thread/INFO]: Default game type: SURVIVAL
-[01:20:08] [Server thread/INFO]: Generating keypair
-[01:20:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:20:08] [Server thread/INFO]: Using epoll channel type
-[01:20:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:20:08] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[01:20:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:20:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:20:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:20:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:20:08] [Server thread/INFO]: Preparing level "world"
-[01:20:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:20:18] [Server thread/INFO]: Time elapsed: 149 ms
-[01:20:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:20:18] [Server thread/INFO]: Time elapsed: 161 ms
-[01:20:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:20:18] [Server thread/INFO]: Time elapsed: 164 ms
-[01:20:18] [Server thread/INFO]: Running delayed init tasks
-[01:20:18] [Server thread/INFO]: Done (11.661s)! For help, type "help"
-[01:20:18] [Server thread/INFO]: Timings Reset
-[01:26:04] [Server thread/INFO]: Stopping server
-[01:26:04] [Server thread/INFO]: Saving players
-[01:26:04] [Server thread/INFO]: Saving worlds
-[01:26:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:26:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[01:26:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[01:26:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[01:26:04] [Server thread/INFO]: [ChunkHolderManager] Saved 1504 block chunks, 62 entity chunks, 0 poi chunks in world 'world' in 0.50s
-[01:26:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:26:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[01:26:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[01:26:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[01:26:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[01:26:05] [Server thread/INFO]: [ChunkHolderManager] Saved 1498 block chunks, 30 entity chunks, 0 poi chunks in world 'world_nether' in 0.43s
-[01:26:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:26:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[01:26:05] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[01:26:05] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[01:26:05] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[01:26:05] [Server thread/INFO]: [ChunkHolderManager] Saved 1506 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.29s
-[01:26:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:26:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:26:05] [Server thread/INFO]: Flushing Chunk IO
-[01:26:05] [Server thread/INFO]: Closing Thread Pool
-[01:26:05] [Server thread/INFO]: Closing Server
+[01:30:01] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[01:30:01] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[01:30:01] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:30:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
+[01:30:02] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
+[01:30:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:30:07] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[01:30:07] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[01:30:08] [ServerMain/INFO]: No existing world data, creating new world
+[01:30:09] [ServerMain/INFO]: Loaded 1290 recipes
+[01:30:10] [ServerMain/INFO]: Loaded 1399 advancements
+[01:30:10] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 8073ms.
+[01:30:10] [Server thread/INFO]: Starting minecraft server version 1.21
+[01:30:10] [Server thread/INFO]: Loading properties
+[01:30:10] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[01:30:11] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:30:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:30:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:30:12] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[01:30:12] [Server thread/INFO]: Default game type: SURVIVAL
+[01:30:12] [Server thread/INFO]: Generating keypair
+[01:30:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:30:12] [Server thread/INFO]: Using epoll channel type
+[01:30:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:30:12] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:30:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:30:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:30:12] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:30:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:30:12] [Server thread/INFO]: Preparing level "world"
+[01:30:27] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:30:34] [Server thread/INFO]: Time elapsed: 7544 ms
+[01:30:34] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:30:36] [Server thread/INFO]: Time elapsed: 2107 ms
+[01:30:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:30:37] [Server thread/INFO]: Time elapsed: 624 ms
+[01:30:37] [Server thread/INFO]: [spark] Starting background profiler...
+[01:30:37] [Server thread/INFO]: Done preparing level "world" (25.071s)
+[01:30:37] [Server thread/INFO]: Running delayed init tasks
+[01:30:37] [Server thread/INFO]: Done (37.399s)! For help, type "help"
+[01:30:37] [Server thread/INFO]: *************************************************************************************
+[01:30:37] [Server thread/INFO]: This is the first time you're starting this server.
+[01:30:37] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
+[01:30:37] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
+[01:30:37] [Server thread/INFO]: *************************************************************************************
+[01:30:37] [Server thread/INFO]: Timings Reset
+[01:33:48] [User Authenticator #0/INFO]: UUID of player Fazt_V2 is cf26bb31-0725-3ccd-980a-6d16f4dacd6e
+[01:33:52] [Server thread/INFO]: Fazt_V2 joined the game
+[01:33:52] [Server thread/INFO]: Fazt_V2[/[0:0:0:0:0:0:0:1%0]:38926] logged in with entity id 58 at ([world]-9.5, 117.0, 5.5)
+[01:34:04] [Server thread/INFO]: Made Fazt_V2 a server operator
+[01:34:19] [Server thread/INFO]: Fazt_V2 issued server command: /datapack
+[01:34:22] [Server thread/INFO]: Fazt_V2 issued server command: /datapack list
+[01:34:33] [Server thread/INFO]: Fazt_V2 issued server command: /datapack enable "file/vanilla-refresh-1.4.26_1.21.zip"
+[01:34:33] [Server thread/INFO]: [Fazt_V2: Enabling data pack [file/vanilla-refresh-1.4.26_1.21.zip (world)]]
+[01:34:34] [Server thread/INFO]: Loaded 1290 recipes
+[01:34:34] [Server thread/INFO]: Loaded 1618 advancements
+[01:34:38] [Server thread/INFO]: Fazt_V2 issued server command: /tps
+[01:36:50] [Server thread/INFO]: Fazt_V2 issued server command: /reload
+[01:36:50] [Server thread/INFO]: Fazt_V2: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[01:36:53] [Server thread/INFO]: Fazt_V2 issued server command: /reload confirm
+[01:36:53] [Server thread/INFO]: Fazt_V2: Please note that this command is not supported and may cause issues when using some plugins.
+[01:36:53] [Server thread/INFO]: Fazt_V2: If you encounter any issues please use the /stop command to restart your server.
+[01:36:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:36:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:36:54] [Server thread/INFO]: Loaded 1290 recipes
+[01:36:54] [Server thread/INFO]: Loaded 1618 advancements
+[01:36:54] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:36:54] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[01:36:54] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - Chunky (1.4.27)
+[01:36:54] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.27
+[01:36:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:36:54] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.27
+[01:36:55] [Server thread/INFO]: Fazt_V2: Reload complete.
+[01:36:55] [Server thread/INFO]: Timings Reset
+[01:37:05] [Server thread/INFO]: Fazt_V2 issued server command: /plugins
+[01:39:02] [Server thread/INFO]: Fazt_V2 issued server command: /reload
+[01:39:02] [Server thread/INFO]: Fazt_V2: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[01:39:04] [Server thread/INFO]: Fazt_V2 issued server command: /reload confirm
+[01:39:04] [Server thread/INFO]: Fazt_V2: Please note that this command is not supported and may cause issues when using some plugins.
+[01:39:04] [Server thread/INFO]: Fazt_V2: If you encounter any issues please use the /stop command to restart your server.
+[01:39:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:39:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:39:04] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.27
+[01:39:05] [Server thread/INFO]: Loaded 1290 recipes
+[01:39:05] [Server thread/INFO]: Loaded 1618 advancements
+[01:39:05] [Server thread/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:39:05] [Paper Async Command Builder Thread Pool - 2/ERROR]: Caught previously unhandled exception :
+[01:39:05] [Paper Async Command Builder Thread Pool - 2/ERROR]: Paper Async Command Builder Thread Pool - 2
+java.util.ConcurrentModificationException: null
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023) ~[?:?]
+	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052) ~[?:?]
+	at net.minecraft.commands.Commands.fillUsableCommands(Commands.java:537) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.sendAsync(Commands.java:496) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.commands.Commands.lambda$sendCommands$6(Commands.java:475) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[01:39:05] [Server thread/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[01:39:05] [Server thread/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - Chunky (1.4.27)
+[01:39:05] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.27
+[01:39:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:39:05] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.27
+[01:39:05] [Server thread/INFO]: Fazt_V2: Reload complete.
+[01:39:05] [Server thread/INFO]: Timings Reset
+[01:39:17] [Server thread/INFO]: Fazt_V2 issued server command: /restart
+[01:39:17] [Server thread/INFO]: [STDOUT] [org.spigotmc.RestartCommand] Startup script './start.sh' does not exist! Stopping server.
+[01:39:17] [Server thread/INFO]: Fazt_V2 lost connection: Server is restarting
+[01:39:17] [Server thread/INFO]: Fazt_V2 left the game
+[01:39:17] [Server thread/INFO]: Stopping server
+[01:39:17] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.27
+[01:39:17] [Server thread/INFO]: Saving players
+[01:39:17] [Server thread/INFO]: Saving worlds
+[01:39:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:39:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[01:39:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[01:39:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[01:39:19] [Server thread/INFO]: [ChunkHolderManager] Saved 2021 block chunks, 602 entity chunks, 7 poi chunks in world 'world' in 1.85s
+[01:39:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[01:39:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[01:39:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[01:39:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[01:39:19] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 2 entity chunks, 0 poi chunks in world 'world_nether' in 0.18s
+[01:39:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[01:39:19] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[01:39:19] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[01:39:19] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[01:39:19] [Server thread/INFO]: [ChunkHolderManager] Saved 792 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.16s
+[01:39:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:39:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:39:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:39:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
